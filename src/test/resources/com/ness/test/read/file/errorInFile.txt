@@ -1,0 +1,31 @@
+2015-11-14 13:37:03,900 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073741832_1008 file /srv/dfs/dn/current/BP-1307736685-172.31.150.141-1447500375391/current/finalized/subdir0/subdir0/blk_1073741832 for deletion
+2015-11-14 13:37:03,901 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-1307736685-172.31.150.141-1447500375391 blk_1073741832_1008 file /srv/dfs/dn/current/BP-1307736685-172.31.150.141-1447500375391/current/finalized/subdir0/subdir0/blk_1073741832
+2015-11-14 13:37:48,901 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: IOException in offerService
+java.io.EOFException: End of File Exception between local host is: "rotimlxdv01.ness.com/172.31.150.141"; destination host is: "rotimlxdv01.ness.com":8022; : java.io.EOFException; For more details see:  http://wiki.apache.org/hadoop/EOFException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:764)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:232)
+	at com.sun.proxy.$Proxy17.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.DatanodeProtocolClientSideTranslatorPB.sendHeartbeat(DatanodeProtocolClientSideTranslatorPB.java:145)
+	at org.apache.hadoop.hdfs.server.datanode.BPServiceActor.sendHeartBeat(BPServiceActor.java:605)
+	at org.apache.hadoop.hdfs.server.datanode.BPServiceActor.offerService(BPServiceActor.java:704)
+	at org.apache.hadoop.hdfs.server.datanode.BPServiceActor.run(BPServiceActor.java:869)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1071)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:966)
+2015-11-14 13:37:49,889 ERROR org.apache.hadoop.hdfs.server.datanode.DataNode: RECEIVED SIGNAL 15: SIGTERM
+2015-11-14 13:37:49,892 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at rotimlxdv01.ness.com/172.31.150.141
+************************************************************/
+2015-11-14 13:37:48,901 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: IOException in offerService XXX_1
+2015-11-14 13:50:07,668 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG:
+2015-11-14 13:37:48,901 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: IOException in offerService XXX_2
