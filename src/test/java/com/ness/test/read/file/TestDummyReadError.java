@@ -20,10 +20,13 @@ import java.util.Map;
  * featureBranch commit 1
  */
 
+<<<<<<< HEAD
 /*
  * featureBranch commit 2
  */
 
+=======
+>>>>>>> 40863c7414864cb6c6ea849b50bb911c8edb4c20
 public class TestDummyReadError {
 
     private String line = null;
