@@ -24,6 +24,10 @@ import java.util.Map;
  * featureBranch commit 2
  */
 
+/*
+ * featureBranch commit 3
+ */
+
 public class TestDummyReadError {
 
 	private String line = null;
