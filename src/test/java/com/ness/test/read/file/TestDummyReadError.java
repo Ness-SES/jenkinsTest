@@ -36,6 +36,10 @@ import java.util.Map;
  * featureBranch commit 5
  */
 
+/*
+ * featureBranch commit 6
+ */
+
 public class TestDummyReadError {
 
 	private String line = null;
