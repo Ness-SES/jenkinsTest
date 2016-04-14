@@ -20,6 +20,10 @@ import java.util.Map;
  * comment 1
  */
 
+/*
+ * comment 2
+ */
+
 public class TestDummyReadError {
 
 	private String line = null;
