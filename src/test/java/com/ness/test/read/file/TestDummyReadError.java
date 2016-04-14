@@ -24,6 +24,10 @@ import java.util.Map;
  * comment 2
  */
 
+/*
+ * comment 3
+ */
+
 public class TestDummyReadError {
 
 	private String line = null;
