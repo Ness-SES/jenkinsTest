@@ -9,6 +9,11 @@
     <artifactId>logFileReader</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+	<properties>
+    	<build.number></build.number>
+    	<gigi></gigi>
+	</properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
