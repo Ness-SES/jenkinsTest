@@ -17,31 +17,7 @@ import java.util.Map;
  */
 
 /*
- * featureBranch commit 1
- */
-
-/*
- * featureBranch commit 2
- */
-
-/*
- * featureBranch commit 3
- */
-
-/*
- * featureBranch commit 4
- */
-
-/*
- * featureBranch commit 5
- */
-
-/*
- * featureBranch commit 6
- */
-
-/*
- * created featureBranch1
+ * comment 1
  */
 
 public class TestDummyReadError {
