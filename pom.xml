@@ -26,6 +26,6 @@
     </dependencies>
 
     <build>
-        <finalName>${artifactId}-${version}-${build.number}CACA${gigi}</finalName>
+        <finalName>${artifactId}-${version}-text${build.number}CACA${gigi}</finalName>
     </build>
 </project>
