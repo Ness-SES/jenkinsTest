@@ -26,6 +26,6 @@
     </dependencies>
 
     <build>
-        <finalName>logFileReader</finalName>
+        <finalName>logFileReader${artifactId}-${version}-${build.number}</finalName>
     </build>
 </project>
