@@ -7,7 +7,7 @@
 
     <groupId>com.ness</groupId>
     <artifactId>logFileReader</artifactId>
-    <version>1.0-SNAPSHOT-${build.number}</version>
+    <version>1.0-SNAPSHOT-${build.number}-${build.revision}</version>
 
     <dependencies>
         <dependency>
@@ -26,6 +26,6 @@
     </dependencies>
 
     <build>
-        <finalName>${artifactId}-${version}-${build.number}</finalName>
+        <finalName>${artifactId}-${version}</finalName>
 	</build>
 </project>
