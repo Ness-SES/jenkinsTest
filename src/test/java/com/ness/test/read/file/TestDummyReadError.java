@@ -15,6 +15,12 @@ import java.util.Map;
 /**
  * Created by P3700601 on 03/01/2016.
  */
+
+
+/*
+ * featureBranch4
+ */
+
 public class TestDummyReadError {
 
     private String line = null;
