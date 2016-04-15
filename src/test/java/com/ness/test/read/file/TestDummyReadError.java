@@ -17,15 +17,7 @@ import java.util.Map;
  */
 
 /*
- * comment 1
- */
-
-/*
- * comment 2
- */
-
-/*
- * comment 3
+ * featureBranch5
  */
 
 public class TestDummyReadError {
