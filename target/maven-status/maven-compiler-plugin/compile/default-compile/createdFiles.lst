@@ -1,0 +1,4 @@
+com/ness/log/file/reader/TheReaderMapper.class
+com/ness/log/file/reader/TheReaderEngine.class
+com/ness/log/file/reader/TheReaderReducer.class
+com/ness/log/file/reader/transport/MapperToReducer.class
