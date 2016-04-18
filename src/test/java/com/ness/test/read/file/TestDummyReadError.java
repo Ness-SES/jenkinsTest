@@ -28,6 +28,10 @@ import java.util.Map;
  * comment 3
  */
 
+/*
+ * aaaaa
+ */
+
 public class TestDummyReadError {
 
 	private String line = null;
