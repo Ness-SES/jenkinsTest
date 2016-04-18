@@ -44,6 +44,10 @@ import java.util.Map;
  * created featureBranch2
  */
 
+/*
+* xxx
+*/
+
 public class TestDummyReadError {
 
 	private String line = null;
