@@ -32,6 +32,11 @@ import java.util.Map;
  * aaaaa
  */
 
+
+/*
+ * 78979
+ */
+
 public class TestDummyReadError {
 
 	private String line = null;
