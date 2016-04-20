@@ -32,6 +32,10 @@ import java.util.Map;
  * comment 4
  */
 
+/*
+ * comment 5
+ */
+
 public class TestDummyReadError {
 
 	private String line = null;
