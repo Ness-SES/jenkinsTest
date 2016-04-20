@@ -20,6 +20,10 @@ import java.util.Map;
  * featureBranch6
  */
 
+/*
+ * QA_featureBranch_6
+ */
+
 public class TestDummyReadError {
 
     private String line = null;
