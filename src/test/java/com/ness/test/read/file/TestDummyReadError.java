@@ -22,8 +22,6 @@ import java.util.Map;
  */
 
 
-/*ddd*/
-
 public class TestDummyReadError {
 
     private String line = null;
