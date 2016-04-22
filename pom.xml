@@ -5,7 +5,7 @@
 
     <groupId>com.ness</groupId>
     <artifactId>logFileReader</artifactId>
-    <version>18.2.5</version>
+    <version>18.2.6-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -27,7 +27,7 @@
    		<connection>scm:git:git://github.com/Ness-SES/jenkinsTest.git</connection>
    		<developerConnection>scm:git:git@github.com:Ness-SES/jenkinsTest.git</developerConnection>
    		<url>https://github.com/Ness-SES/jenkinsTest</url>
-	  <tag>v18.2.5</tag>
+	  <tag>v18.2.4</tag>
   </scm>
 
     <build>
