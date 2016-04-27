@@ -9,6 +9,12 @@
     <artifactId>logFileReader</artifactId>
     <version>1.0-SNAPSHOT-${build.number}-${build.revision}</version>
 
+	<properties>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
@@ -23,9 +29,36 @@
             <classifier>hadoop2</classifier>
             <scope>test</scope>
         </dependency>
+        <dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.1</version>
+		</dependency>
     </dependencies>
 
     <build>
         <finalName>logFileReader</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<systemProperties>
+						<property>
+							<name>branchName</name>
+							<value>${branchName}</value>
+						</property>
+					</systemProperties>
+					<failIfNoSpecifiedTests>false</failIfNoSpecifiedTests>
+					<failIfNoTests>false</failIfNoTests>
+				</configuration>
+			</plugin>
+		</plugins>
     </build>
 </project>
